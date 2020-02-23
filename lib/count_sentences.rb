@@ -19,10 +19,14 @@ class String
   end
 
   def exclamation?
-
+    if self.exclamation?("!")
+      return true
+    else
+      return false
+    end
   end
 
   def count_sentences
-
+    new_array = self.split 
   end
 end
